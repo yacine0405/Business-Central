@@ -1,0 +1,23 @@
+{
+  "id": "e527ffc0-d68c-44fd-ae58-d7f6560d78a9",
+  "name": "Dynamics NAV BC",
+  "publisher": "Default publisher",
+  "brief": "",
+  "description": "",
+  "version": "1.0.0.0",
+  "privacyStatement": "",
+  "EULA": "",
+  "help": "",
+  "url": "",
+  "logo": "",
+  "capabilities": [],
+  "dependencies": [],
+  "screenshots": [],
+  "platform": "13.0.0.0",
+  "application": "13.0.0.0",
+  "idRange": {
+    "from": 50000,
+    "to": 99999
+  },
+  "runtime": "2.0"
+}
