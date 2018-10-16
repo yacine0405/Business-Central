@@ -4,8 +4,15 @@
 
 pageextension 50100 CustomerListExt extends "Customer List"
 {
-    trigger OnOpenPage();
-    begin
-        Message('App published: Hello world');
-    end;
+    layout
+    {
+        addafter(Name)
+        {
+            field(SFAC; SFAC)
+            {
+                ApplicationArea = All;
+                Caption = 'SFAC';
+            }
+        }
+    }
 }
